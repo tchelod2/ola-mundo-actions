@@ -11,4 +11,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Ola, Mundo!
-        run: echo "Ola, Mundo!"
+        run: echo "Hello, World!"
+
+      - name: Usuário
+        run: echo "Rodando como $(Tchelo)"
